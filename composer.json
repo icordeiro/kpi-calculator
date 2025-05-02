@@ -1,0 +1,31 @@
+{
+    "name": "icordeiro/kpi-calculator",
+    "description": "A lightweight PHP library for calculating KPIs like Average Ticket, Gross Margin, etc.",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "icordeiro\\KpiCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "icordeiro\\KpiCalculator\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icordeiro"
+        }
+    ],
+    "repositories": [],
+    "scripts": {
+        "test": "phpunit"
+    }
+}
