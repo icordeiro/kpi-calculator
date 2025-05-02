@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Src;
+namespace namespace ICordeiro\KpiCalculator;
 
 /**
  * Class KpiCalculator
