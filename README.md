@@ -7,10 +7,8 @@ A lightweight and reusable PHP library for calculating key business performance 
 You can install this package via [Composer](https://getcomposer.org/):
 
 ```bash
-composer require your-vendor/kpi-calculator
+composer require icordeiro/kpi-calculator
 ```
-
-> Replace `your-vendor` with your actual Packagist/GitHub vendor name.
 
 # 🚀 Features
 
@@ -27,7 +25,7 @@ composer require your-vendor/kpi-calculator
 
 require 'vendor/autoload.php';
 
-use YourNamespace\KpiCalculator;
+use icordeiro\KpiCalculator;
 
 $totalSales = 10000;
 $totalReceipts = 250;
